@@ -14,9 +14,9 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"😇 𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 {user.mention} \n\nI am an Advance file 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 and file 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 BOT with 𝐂𝐮𝐬𝐭𝐨𝐦 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 support.\n\nSend me any 𝐯𝐢𝐝𝐞𝐨 or 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 !"
+    txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.\n\nSend me any video or document !"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton(" 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🏝 ", callback_data='dev')
+        InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
         InlineKeyboardButton(' 𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍁', url='https://t.me/QTVS_BOT_X_CLOUD'),
         InlineKeyboardButton(' 𝐒𝐮𝐩𝐩𝐨𝐫𝐭♻', url='https://t.me/QTVS_BOT_X_CLOUD')
@@ -68,9 +68,9 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""😇 𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 {query.from_user.mention} \n\nI am an Advance file 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 and file Converter BOT with 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 and custom thumbnail support.\n\nSend me any 𝐯𝐢𝐝𝐞𝐨 𝐨𝐫 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 !""",
+            text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton(" 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🍁", callback_data='dev')
+        InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
         InlineKeyboardButton(' 𝐔𝐩𝐝𝐚𝐭𝐞𝐬🏝', url='https://t.me/QTVS_BOT_X_CLOUD'),
         InlineKeyboardButton(' 𝐒𝐮𝐩𝐩𝐨𝐫𝐭♻', url='https://t.me/QTVS_BOT_X_CLOUD')
