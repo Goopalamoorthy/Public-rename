@@ -16,7 +16,7 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.\n\nSend me any video or document !"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButtonn("🥴𝐌𝐫.𝐓𝐨𝐦𝐦𝐲-𝐏𝐞𝐚𝐤𝐲🍁", url='https://t.me/Owner_of_qtmve')
+        InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
         InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍁', url='https://t.me/QTVS_BOT_X_CLOUD'),
         InlineKeyboardButton('𝐌𝐚𝐬𝐭𝐞𝐫🏝', url='https://t.me/SMD_Owner')
@@ -70,7 +70,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButtonn("🥴𝐌𝐫.𝐓𝐨𝐦𝐦𝐲-𝐏𝐞𝐚𝐤𝐲🍁", url='https://t.me/Owner_of_qtmve')
+        InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
         InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍁', url='https://t.me/QTVS_BOT_X_CLOUD'),
         InlineKeyboardButton('𝐌𝐚𝐬𝐭𝐞𝐫🏝', url='https://t.me/SMD_Owner')
