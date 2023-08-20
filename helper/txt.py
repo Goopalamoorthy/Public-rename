@@ -10,11 +10,11 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 My Name is : {}
-├👑 CHANNEL : <a href=https://t.me/WebXBots>WebXBots</a> 
-├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
-├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
-├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
-├🌀 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://www.oracle.com/cloud/>Render</a>
+├👑 CHANNEL : <a href=https://t.me/QTVS_BOT_X_CLOUD>Qtvsofficial</a> 
+├📕 LIBRARY : <a href=https://t.me/SMD_Owner>Goopal</a>
+├✏️ LANGUAGE : <a href=https://t.me/Qtmve_linkzZz>Lion</a>
+├💾 DATABASE : <a href=http://t.me/Ultra_SPEED_ROBOT>Beedi</a>
+├🌀 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://t.me/QTVS_BOT_X_CLOUD>Source Code</a>
 ├📊 BUILD-STATUS : Python v3.10.5              
 ╰───────────────⍟
                                 """
