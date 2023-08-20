@@ -70,18 +70,18 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton(" Developer ", callback_data='dev')
+        InlineKeyboardButtonn("🥴𝐌𝐫.𝐓𝐨𝐦𝐦𝐲-𝐏𝐞𝐚𝐤𝐲🍁", url='https://t.me/Owner_of_qtmve')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/WebXBots'),
-        InlineKeyboardButton(' Support', url='https://t.me/Web_X_Support')
+        InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍁', url='https://t.me/QTVS_BOT_X_CLOUD'),
+        InlineKeyboardButton('𝐌𝐚𝐬𝐭𝐞𝐫🏝', url='https://t.me/SMD_Owner')
         ],[
-        InlineKeyboardButton(' About', callback_data='about'),
-        InlineKeyboardButton(' Help', callback_data='help')
+        InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭😇', callback_data='about'),,
+        InlineKeyboardButton('𝐇𝐞𝐥𝐩♻', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/DCinemasz')
+        InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📺", url='https://t.me/SAM_DUB_LEZHa')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Divin_Dass')
-        ]
+        InlineKeyboardButton("🔎 𝐎𝐧𝐥𝐲 𝐩𝐢𝐞𝐜𝐞 🔍", url='https://t.me/SMD_Owner')
+        ]                                                  
         ]
                 )
             )
