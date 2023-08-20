@@ -14,19 +14,19 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with Custom thumbnail support.\n\nSend me any video or document !"
+    txt=f"😇 𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 {user.mention} \n\nI am an Advance file 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 and file 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 BOT with 𝐂𝐮𝐬𝐭𝐨𝐦 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 support.\n\nSend me any 𝐯𝐢𝐝𝐞𝐨 or 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 !"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton(" Developer ", callback_data='dev')
+        InlineKeyboardButton(" 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🏝 ", callback_data='dev')
         ],[
-        InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍁', url='https://t.me/QTVS_BOT_X_CLOUD'),
-        InlineKeyboardButton('𝐌𝐚𝐬𝐭𝐞𝐫🏝', url='https://t.me/SMD_Owner')
+        InlineKeyboardButton(' 𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍁', url='https://t.me/QTVS_BOT_X_CLOUD'),
+        InlineKeyboardButton(' 𝐒𝐮𝐩𝐩𝐨𝐫𝐭♻', url='https://t.me/QTVS_BOT_X_CLOUD')
         ],[
-        InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭😇', callback_data='about'),,
-        InlineKeyboardButton('𝐇𝐞𝐥𝐩♻', callback_data='help')
+        InlineKeyboardButton(' 𝐀𝐛𝐨𝐮𝐭🎺', callback_data='about'),
+        InlineKeyboardButton(' 𝐇𝐞𝐥𝐩🌐', callback_data='help')
         ],[
-        InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📺", url='https://t.me/SAM_DUB_LEZHa')
+        InlineKeyboardButton(" 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐨𝐯𝐢𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 !", url='url='https://t.me/SAM_DUB_LEZHa')
         ],[
-        InlineKeyboardButton("🔎 𝐎𝐧𝐥𝐲 𝐩𝐢𝐞𝐜𝐞 🔍", url='https://t.me/SMD_Owner')
+        InlineKeyboardButton("🍁𝐀𝐮𝐫𝐭𝐡𝐨𝐫", url='https://t.me/SMD_Owner')
         ]
         ])
     if START_PIC:
@@ -68,20 +68,20 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
+            text=f"""😇 𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 {query.from_user.mention} \n\nI am an Advance file 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 and file Converter BOT with 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 and custom thumbnail support.\n\nSend me any 𝐯𝐢𝐝𝐞𝐨 𝐨𝐫 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭 !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton(" Developer ", callback_data='dev')
+        InlineKeyboardButton(" 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🍁", callback_data='dev')
         ],[
-        InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍁', url='https://t.me/QTVS_BOT_X_CLOUD'),
-        InlineKeyboardButton('𝐌𝐚𝐬𝐭𝐞𝐫🏝', url='https://t.me/SMD_Owner')
+        InlineKeyboardButton(' 𝐔𝐩𝐝𝐚𝐭𝐞𝐬🏝', url='https://t.me/QTVS_BOT_X_CLOUD'),
+        InlineKeyboardButton(' 𝐒𝐮𝐩𝐩𝐨𝐫𝐭♻', url='https://t.me/QTVS_BOT_X_CLOUD')
         ],[
-        InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭😇', callback_data='about'),,
-        InlineKeyboardButton('𝐇𝐞𝐥𝐩♻', callback_data='help')
+        InlineKeyboardButton(' 𝐀𝐛𝐨𝐮𝐭🌐', callback_data='about'),
+        InlineKeyboardButton(' 𝐇𝐞𝐥𝐩✅', callback_data='help')
         ],[
-        InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📺", url='https://t.me/SAM_DUB_LEZHa')
+        InlineKeyboardButton(" 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 !", url='https://t.me/SAM_DUB_LEZHa')
         ],[
-        InlineKeyboardButton("🔎 𝐎𝐧𝐥𝐲 𝐩𝐢𝐞𝐜𝐞 🔍", url='https://t.me/SMD_Owner')
-        ]                                                  
+        InlineKeyboardButton("𝐀𝐮𝐭𝐡𝐨𝐫🍁", url='https://t.me/SMD_Owner')
+        ]
         ]
                 )
             )
